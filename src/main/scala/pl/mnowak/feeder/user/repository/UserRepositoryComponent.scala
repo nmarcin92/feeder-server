@@ -1,5 +1,13 @@
 package pl.mnowak.feeder.user.repository
 
-class UserRepository {
+trait UserRepositoryComponent {
+
+  val userRepository: UserRepository
+
+  class UserRepository {
+
+
+
+  }
 
 }

@@ -4,7 +4,7 @@ import com.typesafe.config.ConfigFactory
 
 trait SettingsComponent {
 
-  val settings
+  val settings: Settings
 
   class Settings {
 
